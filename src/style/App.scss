@@ -1,0 +1,23 @@
+@import './breakpoints.scss';
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+    @include desktop {
+        font-size: 62.5%;
+    }
+
+    @include tablet {
+        font-size: 60%;
+    }
+
+    @include mobile {
+        font-size: 57.5%;
+    }
+
+}
