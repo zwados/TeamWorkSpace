@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, } from 'react-router-dom';
 import './App.css';
 import './style/App.scss'
 import styled from 'styled-components';
@@ -20,13 +21,14 @@ grid-template-rows: 5rem 1fr 5rem;
 
 function App() {
   return (
-    <StyledAppLayout>
-      <SideNav />
-      <Nav />
-      <Main />
-      <Footer />
-
-    </StyledAppLayout>
+    <Router>
+      <StyledAppLayout>
+        <SideNav />
+        <Nav />
+        <Main />
+        <Footer />
+      </StyledAppLayout>
+    </Router>
   );
 }
 
