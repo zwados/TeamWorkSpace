@@ -11,7 +11,6 @@ height: 100vh;
 box-shadow: .2rem .1rem .5rem #343434;
 position: relative;
 z-index: 1000;
-color: white;
 `;
 
 //change values below to amend rendered SideNav Buttons
